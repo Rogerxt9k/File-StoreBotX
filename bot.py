@@ -35,7 +35,7 @@ class Bot(Client):
         except Exception as a:
             self.LOGGER(__name__).warning(a)
             self.LOGGER(__name__).info(
-                "Bot stopped. Join the group https://t.me/Bihari_Anime for assistance."
+                "Bot stopped. Join the group https://t.me/Prime_Movieshd for assistance."
             )
             sys.exit()
 
@@ -59,7 +59,7 @@ class Bot(Client):
                     f"Ensure that @{self.username} is an admin in the mentioned Channel. Current F-Subs Channel Chat ID: {FORCE_SUB_CHANNEL}"
                 )
                 self.LOGGER(__name__).info(
-                    "Bot stopped. Join the group https://t.me/Bihari_Anime for assistance."
+                    "Bot stopped. Join the group https://t.me/Prime_Movieshd for assistance."
                 )
                 sys.exit()
 
@@ -83,7 +83,7 @@ class Bot(Client):
                     f"Ensure that @{self.username} is an admin in the mentioned Group. Current F-Subs Group Chat ID: {FORCE_SUB_GROUP}"
                 )
                 self.LOGGER(__name__).info(
-                    "Bot stopped. Join the group https://t.me/Bihari_Anime for assistance."
+                    "Bot stopped. Join the group https://t.me/Prime_Movieshd for assistance."
                 )
                 sys.exit()
 
@@ -101,13 +101,13 @@ class Bot(Client):
                 f"Ensure that @{self.username} is an admin in your Database Channel. Current CHANNEL_ID: {CHANNEL_ID}"
             )
             self.LOGGER(__name__).info(
-                "Bot stopped. Join the group https://t.me/Bihari_Anime for assistance."
+                "Bot stopped. Join the group https://t.me/Prime_Movieshd for assistance."
             )
             sys.exit()
 
         self.set_parse_mode(enums.ParseMode.HTML)
         self.LOGGER(__name__).info(
-            f"[🔥 SUCCESSFULLY ACTIVATED! 🔥]\n\nBOT Created by @{OWNER}\nIf @{OWNER} Needs Assistance, Please Ask in the Group https://t.me/Bihari_Anime"
+            f"[🔥 SUCCESSFULLY ACTIVATED! 🔥]\n\nBOT Created by @{OWNER}\nIf @{OWNER} Needs Assistance, Please Ask in the Group https://t.me/Prime_Movieshd"
         )
 
     async def stop(self, *args):

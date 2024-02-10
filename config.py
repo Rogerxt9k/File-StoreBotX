@@ -5,7 +5,7 @@ from logging.handlers import RotatingFileHandler
 
 
 #Bot token @Botfather
-TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "6964840897:AAGU-2brHOundxf5pvwweX7IXmGV2jwD-Ws")
+TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "6956809102:AAFuH3nl0vXA_otC1KB1_398LDruOk1yGuM")
 
 #Your API ID from my.telegram.org
 APP_ID = int(os.environ.get("APP_ID", "14236174"))
@@ -14,7 +14,7 @@ APP_ID = int(os.environ.get("APP_ID", "14236174"))
 API_HASH = os.environ.get("API_HASH", "5dc56604c38c68ca3ee6e589570edc6b")
 
 #Your db channel Id
-CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002008544885"))
+CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002137758134"))
 
 #OWNER ID
 OWNER_ID = int(os.environ.get("OWNER_ID", "6001922744"))
@@ -30,7 +30,7 @@ DB_URI = os.environ.get("DATABASE_URL", "mongodb+srv://razer:razer@cluster0.pw09
 DB_NAME = os.environ.get("DATABASE_NAME", "cluster0")
 
 #force sub channel id, if you want enable force sub
-FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "-1002116131647"))
+FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "-1002057877764"))
 
 #force sub Gorup id, if you want enable force sub
 FORCE_SUB_GROUP = int(os.environ.get("FORCE_SUB_GROUP", "-1001790780480"))

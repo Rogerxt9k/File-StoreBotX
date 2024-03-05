@@ -26,7 +26,7 @@ OWNER = os.environ.get("OWNER", "Razer358")
 PORT = os.environ.get("PORT", "8080")
 
 #Database 
-DB_URI = os.environ.get("DATABASE_URL", "mongodb+srv://razer:<password>@cluster0.ryb7bbl.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
+DB_URI = os.environ.get("DATABASE_URL", "mongodb+srv://razer:razer@cluster0.ryb7bbl.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
 DB_NAME = os.environ.get("DATABASE_NAME", "RazerSafe")
 
 #force sub channel id, if you want enable force sub

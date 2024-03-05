@@ -5,16 +5,16 @@ from logging.handlers import RotatingFileHandler
 
 
 #Bot token @Botfather
-TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "6956809102:AAFuH3nl0vXA_otC1KB1_398LDruOk1yGuM")
+TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "7127888296:AAGfB4BiYIU-3dpJs_IAD7x_g1Ip1ggvyNI")
 
 #Your API ID from my.telegram.org
-APP_ID = int(os.environ.get("APP_ID", "14236174"))
+APP_ID = int(os.environ.get("APP_ID", "20227614"))
 
 #Your API Hash from my.telegram.org
-API_HASH = os.environ.get("API_HASH", "5dc56604c38c68ca3ee6e589570edc6b")
+API_HASH = os.environ.get("API_HASH", "b9268f7d01884a3d740ba17d0ad8754b")
 
 #Your db channel Id
-CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002137758134"))
+CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002006463063"))
 
 #OWNER ID
 OWNER_ID = int(os.environ.get("OWNER_ID", "6001922744"))
@@ -26,14 +26,14 @@ OWNER = os.environ.get("OWNER", "Razer358")
 PORT = os.environ.get("PORT", "8080")
 
 #Database 
-DB_URI = os.environ.get("DATABASE_URL", "mongodb+srv://razer:razer@cluster0.pw09u3r.mongodb.net/?retryWrites=true&w=majority")
-DB_NAME = os.environ.get("DATABASE_NAME", "cluster0")
+DB_URI = os.environ.get("DATABASE_URL", "mongodb+srv://razer:<password>@cluster0.ryb7bbl.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
+DB_NAME = os.environ.get("DATABASE_NAME", "RazerSafe")
 
 #force sub channel id, if you want enable force sub
-FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "-1002057877764"))
+FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", ""))
 
 #force sub Gorup id, if you want enable force sub
-FORCE_SUB_GROUP = int(os.environ.get("FORCE_SUB_GROUP", "-1001790780480"))
+FORCE_SUB_GROUP = int(os.environ.get("FORCE_SUB_GROUP", ""))
 
 TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "4"))
 

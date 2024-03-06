@@ -5,6 +5,10 @@
     ─「 ᴅᴇᴩʟᴏʏ ᴏɴ ʜᴇʀᴏᴋᴜ 」─
 </h3>
 
+<p align="center">
+  <img src="https://telegra.ph/file/70cc37f108433acc21b17.jpg" alt="Razer Filestore logo" width="640" height="360">
+</p>
+
 <p align="center"><a href="https://dashboard.heroku.com/new?template=https://github.com/Rogerxt9k/File-StoreBotX"> <img src="https://img.shields.io/badge/Deploy%20On%20Heroku-black?style=for-the-badge&logo=heroku" width="220" height="38.45"/></a></p>
 
 

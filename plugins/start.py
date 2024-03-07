@@ -23,7 +23,7 @@ async def start_command(client: Client, message: Message):
         except:
             pass
     text = message.text
-    if len(text)>7:
+    if len(text) > 7:
         try:
             base64_string = text.split(" ", 1)[1]
         except:
@@ -39,6 +39,11 @@ async def start_command(client: Client, message: Message):
             if start <= end:
                 ids = range(start,end+1)
             else:
+                await message.reply_video(
+                    video="https://telegra.ph/file/975f0b2b4bf9dd0307197.mp4",
+                    caption="Your caption here",
+                    quote=True
+                )
                 ids = []
                 i = start
                 while True:
